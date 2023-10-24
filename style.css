@@ -10,18 +10,47 @@ html {min-height: 100%;
 .navbar {
     background-color: #F8EADE;
     overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
   }
-.navbar a {float: left;
-    color: #9E5346;
+.navbar a {color: #9E5346;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: century gothic;
+    
 }
+.navbar a.split {
+    background-color: #9E5346;
+    color: #F8EADE;
+    font-family: consolas;
+    margin-left: auto;
+  }
 
+/*blockquote code*/
+blockquote { background-color: #F8EADE;
+    font-family: century gothic;
+    font-size: large;
+    text-align:left;
+    padding: 12px 12px;
+    width: 25%;
+    display: inline-block;
+    position: auto;
+    vertical-align: middle;
+    margin-top: 3%;
+    }
 
-
+/*About Me Picture*/
+img {border: 2px solid #9E5346;
+    width: 20%;
+    display: inline-block;
+    position: auto;
+    vertical-align: middle;
+    padding: 5px;
+    margin-top: 3%;
+}
 
     
 

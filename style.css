@@ -35,7 +35,7 @@ blockquote { background-color: #F8EADE;
     font-size: large;
     text-align:left;
     padding: 12px 12px;
-    width: 25%;
+    width: 30%;
     display: inline-block;
     position: auto;
     vertical-align: middle;
@@ -52,8 +52,8 @@ img {border: 2px solid #9E5346;
     margin-top: 3%;
 }
 
-    
+/*subheading*/
+h2 {font-family: consolas;
+    color: #9E5346;}
 
-
-
-
+/*about me*/

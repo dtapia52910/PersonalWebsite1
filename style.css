@@ -29,6 +29,10 @@ html {min-height: 100%;
     margin-left: auto;
   }
 
+.h1color {color: #F8EADE; 
+}
+
+
 /*blockquote code*/
 blockquote { background-color: #F8EADE;
     font-family: century gothic;
@@ -54,6 +58,22 @@ img {border: 2px solid #9E5346;
 
 /*subheading*/
 h2 {font-family: consolas;
-    color: #9E5346;}
-
-/*about me*/
+    color: #9E5346;
+    }
+/*home page intro*/
+.index {background-color: #F8EADE;
+        padding: 12px;
+        width: 65%;
+        margin-top: 3%;
+}
+/*about me page*/
+.aboutme {background-color: #F8EADE;
+    padding: 12px;
+    width: 65%;
+    margin-top: 3%;
+    font-family: century gothic;
+    font-size: small;
+}
+.about {font-family: consolas;
+    color: #9E5346;
+    }

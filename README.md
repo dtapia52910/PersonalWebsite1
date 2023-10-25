@@ -12,7 +12,7 @@
 9 learned how to and creat section for my portfolio page
 10. checked everything over with the rubric
 11. slept on it then triple checked everything
-12. submit project while feeling i still forgot to submit something.
+12. submit project while feeling like i still forgot to submit something.
 
 
 

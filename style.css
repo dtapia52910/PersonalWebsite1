@@ -16,7 +16,7 @@ html {min-height: 100%;
   }
 .navbar a {color: #9E5346;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: century gothic;
@@ -33,7 +33,10 @@ html {min-height: 100%;
 }
 
 
-/*blockquote code*/
+/*about me*/
+.briefintro {font-family: century gothic;
+    font-size: medium;
+    text-align:left}
 blockquote { background-color: #F8EADE;
     font-family: century gothic;
     font-size: large;
@@ -47,7 +50,7 @@ blockquote { background-color: #F8EADE;
     }
 
 /*About Me Picture*/
-img {border: 2px solid #9E5346;
+.headshot {border: 2px solid #9E5346;
     width: 20%;
     display: inline-block;
     position: auto;
@@ -77,3 +80,14 @@ h2 {font-family: consolas;
 .about {font-family: consolas;
     color: #9E5346;
     }
+
+    /* Portfolio*/
+.h2p {background-color: #F8EADE;
+       text-align: left;
+    font-style: italic;
+    padding: 5px;
+    border-bottom:#9E5346;
+    border-style: double;}
+
+.projectpic {width: 200px;
+vertical-align: middle;}

@@ -84,10 +84,16 @@ h2 {font-family: consolas;
     /* Portfolio*/
 .h2p {background-color: #F8EADE;
        text-align: left;
-    font-style: italic;
     padding: 5px;
     border-bottom:#9E5346;
     border-style: double;}
 
 .projectpic {width: 200px;
 vertical-align: middle;}
+
+.portheader {text-align: left;
+    background-color: #F8EADE;
+    width: 70%;
+    padding: 5px;
+    color: #9E5346;
+    font-style: consolas;}

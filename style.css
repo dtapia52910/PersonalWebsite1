@@ -32,43 +32,48 @@ html {min-height: 100%;
 .h1color {color: #F8EADE; 
 }
 
-
-/*about me*/
-.briefintro {font-family: century gothic;
-    font-size: medium;
-    text-align:left}
-blockquote { background-color: #F8EADE;
-    font-family: century gothic;
-    font-size: large;
-    text-align:left;
-    padding: 12px 12px;
-    width: 30%;
-    display: inline-block;
-    position: auto;
-    vertical-align: middle;
-    margin-top: 3%;
-    }
-
-/*About Me Picture*/
-.headshot {border: 2px solid #9E5346;
-    width: 20%;
-    display: inline-block;
-    position: auto;
-    vertical-align: middle;
-    padding: 5px;
-    margin-top: 3%;
-}
-
 /*subheading*/
 h2 {font-family: consolas;
     color: #9E5346;
     }
-/*home page intro*/
+
+/*Home*/
 .index {background-color: #F8EADE;
-        padding: 12px;
-        width: 65%;
-        margin-top: 3%;
+    display:grid;
+    grid-template-rows: 15% 40% 40%;
+    grid-template-columns: 50% 50% ;
+    padding: 12px;
+    margin-top: 3%;
+    grid-gap: 0 2em ;}
+
+.mother {text-align: center;
+    grid-row: 1;
+    grid-column: span 2 }
+
+.briefintro {font-family: century gothic;
+    font-size: medium;
+    text-align:center;
+    grid-column: 1;
+    grid-row: 2}
+
+.blockquote { grid-column: 1;
+    grid-row: 3;
+    font-family: century gothic;
+    font-size: large;
+    text-align:center;
+    }
+
+footer {vertical-align: middle;
+text-align: center;}
+
+.headshot {border: 2px solid #9E5346;
+    width: 50%;
+    position:relative;
+    padding: 5px;
+    margin-top: 3%;
 }
+.headshotpt2 {grid-column: 2;
+    grid-row: 2 / 3;}
 /*about me page*/
 .aboutme {background-color: #F8EADE;
     padding: 12px;
@@ -97,3 +102,5 @@ vertical-align: middle;}
     padding: 5px;
     color: #9E5346;
     font-style: consolas;}
+
+ 

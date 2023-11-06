@@ -14,5 +14,13 @@
 11. slept on it then triple checked everything
 12. submit project while feeling like i still forgot to submit something.
 
+### New Additions
+
+-Flex grids
+-Media Queries
+-Opaque backgrounds
+-Contact Me form
+-Landing page for contact me form
+
 
 
